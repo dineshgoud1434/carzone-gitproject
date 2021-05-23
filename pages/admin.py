@@ -14,6 +14,5 @@ class TeamAdmin(admin.ModelAdmin):
     list_filter = ('designation', )
 
 
-
 admin.site.register(Team, TeamAdmin)
 
